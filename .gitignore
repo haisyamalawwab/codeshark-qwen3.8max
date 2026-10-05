@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Production build output
+dist/
+dist-ssr/
+build/
+*.local
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data & temp files
+.cache/
+tmp/
+temp/
+*.tmp
+
+# Editor / IDE configuration
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swo
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+.phpunit.result.cache
+
+# Local agent / AI tools
+.gemini/
